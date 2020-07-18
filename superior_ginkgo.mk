@@ -13,8 +13,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
-# ANXCamera
-$(call inherit-product, vendor/ANXCamera/config.mk)
+# MiuiCamera
+$(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
 
 # Inherit some common SuperiorOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
